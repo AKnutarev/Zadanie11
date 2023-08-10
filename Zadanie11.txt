@@ -11,5 +11,20 @@ git config --global user.email "as.knutarev@gmail.com"
 bin/
 admin/
 config/
-5. Добавление всех файлов в локальный репозиторий:
+5. Добавление всех файлов в локальный репозиторий
+Все файлы готовим к отправке:
 git add .
+Выгрузка файлов в локальный репозиторий:
+git commit -m "Zadanie11"
+6. Создание новой ветки:
+git branch newBranch
+7. Переход в новую ветку:
+git checkout newBranch
+8. Создание в новой ветке, в корне проекта папки "blog" и файлов внутри:
+- index.js, 
+- index.html.
+9. Загрузка на удаленный репозиторий лишь основной ветки проекта:
+9.1. Подключение к удалённому репозиторию:
+git remote add origin https://github.com/AKnutarev/Zadanie11.git
+9.2 Выгрузка только основной ветки проекта (master ветка)
+git push -u origin master
