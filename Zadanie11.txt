@@ -1,0 +1,15 @@
+Список команд для выполнения задачи:
+1. Инициализация проекта с GIT:
+git init
+2. Установка логина:
+git config --global user.name "Anatolii"
+3. Установка email:
+git config --global user.email "as.knutarev@gmail.com"
+4. Укажите, что в вашем проекте будут игнорироваться все файлы с расширением .sass и папки: bin, admin, config:
+Создаём файл в корне проекта ".gitignore", в нём прописываем:
+*.sass
+bin/
+admin/
+config/
+5. Добавление всех файлов в локальный репозиторий:
+git add .
